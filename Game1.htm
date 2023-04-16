@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treasure Hunt Game</title>
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Treasure Hunt Game</h1>
+			<p class="score">Score: <span id="score">0</span></p>
+			<p class="timer">Time left: <span id="timer">60</span> seconds</p>
+		</div>
+		<div class="content">
+			<div class="game">
+				<div id="player"></div>
+				<div id="treasure"></div>
+				<div class="obstacle"></div>
+				<div class="obstacle"></div>
+				<div class="obstacle"></div>
+			</div>
+			<div class="controls">
+				<button id="start-button">Start Game</button>
+				<button id="reset-button">Reset Game</button>
+			</div>
+		</div>
+		<div class="footer">
+			<p>&copy; 2023 Treasure Hunt Game</p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
